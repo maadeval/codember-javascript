@@ -1,0 +1,35 @@
+{
+  "name": "codember-javascript",
+  "version": "1.0.0",
+  "description": "Soluciónes de los ejercicios de Codember! ⚡️ En JavaScript y divididos por semana",
+  "type": "module",
+  "scripts": {
+    "dev:challenge-01": "nodemon src/01/index.js",
+    "lint": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "javascript",
+    "codember",
+    "challenge"
+  ],
+  "author": {
+    "name": "madeval",
+    "url": "https://github.com/maadeval",
+    "email": "alvarez.fing@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.27.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.5.0",
+    "eslint-plugin-promise": "6.1.1",
+    "nodemon": "2.0.20",
+    "prettier": "2.7.1"
+  },
+  "imports": {
+    "#Challenges/*": "./src/*"
+  }
+}
